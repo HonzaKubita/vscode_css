@@ -37,9 +37,7 @@ body:has(.quick-input-widget .monaco-list[aria-label*="Select File Icon"]) .mona
 
 /* Rounded sidebar */
 #workbench\.parts\.sidebar {
-    border-radius: 15px;
-    overflow: hidden;
-    padding: 5px;
+  background-color: transparent !important;
 }
 
 /* Rounded and thinner scroll grabber */
